@@ -38,7 +38,7 @@ jobs:
           persist-credentials: false
           path: sidereon-adk
 
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.3.0
 
       - name: Install the SDK and the documentation tools
         run: uv venv --python 3.12 .venv && uv pip install -e sidereon-adk -r requirements.txt
