@@ -1,0 +1,6 @@
+.venv/
+_build/
+docs/_from_adk/
+docs/examples/
+__pycache__/
+.DS_Store

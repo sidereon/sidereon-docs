@@ -1,0 +1,10 @@
+/* Small touches on top of the Furo theme. */
+.sd-card-title { font-weight: 600; }
+.sd-card { transition: transform 0.12s ease, box-shadow 0.12s ease; }
+.sd-card:hover { transform: translateY(-2px); }
+table.docutils td, table.docutils th { vertical-align: top; }
+.hero-tagline { font-size: 1.15rem; opacity: 0.85; margin-top: -0.5rem; }
+.sidebar-brand .sidebar-logo-container .sidebar-logo { width: 3rem; max-width: 3rem; }
+.sidebar-brand.centered { flex-direction: row; gap: 0.6rem; align-items: center; justify-content: flex-start; }
+.sidebar-brand .sidebar-logo-container { margin: 0; }
+.sidebar-brand .sidebar-brand-text { font-size: 1.1rem; text-align: left; }
